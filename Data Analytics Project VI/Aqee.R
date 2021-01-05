@@ -1,0 +1,6 @@
+library(data.table)
+library(ggplot2)
+library(ggmosaic)
+library(readr)
+str(Analytics_trying)
+summary((Analytics_trying)[,"PROD_NAME"])
